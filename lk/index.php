@@ -11,7 +11,7 @@ if(isset($_SESSION['logged_user'])):?>
 
 <a href="logout.php">Выйти</a>
 <?php  else : ?>
-<a href="login.php">Авторизоваться</a> <br>
-<a href="signup.php">Регистрация</a>
+<a href="login.php">Войти</a> <br>
+<a href="signup.php">Зарегистрироваться</a>
 
 <?php endif; ?>
